@@ -16,7 +16,7 @@ namespace AppConsoleEF.Data.Configurations
             builder.ToTable("Customer");
             builder.HasKey(_ => _.Id);
             builder.Property(_ => _.Name).HasColumnType("VARCHAR(100)").IsRequired();
-            builder.Property(_ => _.Phone).HasColumnType("VARCHAR(11)").IsRequired();
+			builder.Property(_ => _.Phone).HasColumnType("VARCHAR(11)").IsRequired();
             builder.Property(_ => _.CEP).HasColumnType("CHAR(8)").IsRequired();
             builder.Property(_ => _.UF).HasColumnType("CHAR(2)").IsRequired();
             builder.Property(_ => _.City).HasMaxLength(60).IsRequired();

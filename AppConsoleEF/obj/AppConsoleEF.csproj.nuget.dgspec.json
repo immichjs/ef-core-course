@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\immic\\Desktop\\2023\\aspnet-core\\AppConsoleEF\\AppConsoleEF.csproj": {}
+    "C:\\Users\\Target N017\\Desktop\\Estudos\\ef-core-course\\AppConsoleEF\\AppConsoleEF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\immic\\Desktop\\2023\\aspnet-core\\AppConsoleEF\\AppConsoleEF.csproj": {
+    "C:\\Users\\Target N017\\Desktop\\Estudos\\ef-core-course\\AppConsoleEF\\AppConsoleEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\immic\\Desktop\\2023\\aspnet-core\\AppConsoleEF\\AppConsoleEF.csproj",
+        "projectUniqueName": "C:\\Users\\Target N017\\Desktop\\Estudos\\ef-core-course\\AppConsoleEF\\AppConsoleEF.csproj",
         "projectName": "AppConsoleEF",
-        "projectPath": "C:\\Users\\immic\\Desktop\\2023\\aspnet-core\\AppConsoleEF\\AppConsoleEF.csproj",
-        "packagesPath": "C:\\Users\\immic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\immic\\Desktop\\2023\\aspnet-core\\AppConsoleEF\\obj\\",
+        "projectPath": "C:\\Users\\Target N017\\Desktop\\Estudos\\ef-core-course\\AppConsoleEF\\AppConsoleEF.csproj",
+        "packagesPath": "C:\\Users\\Target N017\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Target N017\\Desktop\\Estudos\\ef-core-course\\AppConsoleEF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\immic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Target N017\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,9 +44,25 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
